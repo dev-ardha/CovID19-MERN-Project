@@ -9,15 +9,15 @@ Coronavirus Information Website built with the MERN Stack (MongoDB, Express, Rea
 5. Sass
 
 ## Installation
-```
-#Clone Repositories
+```shell
+# Clone Repositories
 git clone git@github.com:dev-ardha/covid19-mern-stack.git
 cd covid19-mern-stack
 
-#Install Dependencies
+# Install Dependencies
 npm install
 npm run client-install
 
-#Start the Development Server
+# Start the Development Server
 npm run dev
 ```
