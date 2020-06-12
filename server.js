@@ -7,7 +7,7 @@ const path = require('path');
 
 const app = express();
 
-const uri = 'mongodb+srv://ardhayudhatama:bumiitubulat@myprojects-ahg9u.mongodb.net/coviddatabase?retryWrites=true&w=majority';
+const uri = '#';
 mongoose.connect(uri, { useNewUrlParser: true,useUnifiedTopology: true } )
         .then(()=> console.log('Database Connected...'))
         .catch((err)=> console.log(err));
